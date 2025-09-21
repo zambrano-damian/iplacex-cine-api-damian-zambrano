@@ -1,5 +1,5 @@
 import { MongoClient, ServerApiVersion } from 'mongodb';
-const uri =  "mongodb+srv://damianzambrano089_db_user:Nw6Tlyet85n4IaOI@cluster-spring.fghdfpr.mongodb.net/?retryWrites=true&w=majority&appName=cluster-spring";
+const uri =  "mongodb+srv://damianzambrano089_db_user:admin12345@cluster-spring.fghdfpr.mongodb.net/cine-db?retryWrites=true&w=majority&appName=cluster-spring&authSource=admin";
 
 
 const client = new MongoClient(uri, {
